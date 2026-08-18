@@ -7,7 +7,7 @@ export default function Home() {
     <main id="top">
       <nav className="nav shell" aria-label="Main navigation">
         <a className="brand" href="#top" aria-label="TrackyLab home"><span className="brand-mark"><Wave /></span><span>trackylab</span></a>
-        <div className="nav-links"><a href="#products">Products</a><a href="#about">About</a><a className="nav-contact" href="mailto:itai@trackylab.com">Contact</a></div>
+        <div className="nav-links"><a href="#products">Products</a><a href="#about">About</a><a className="nav-contact" href="/contact">Contact</a></div>
       </nav>
 
       <section className="hero shell">
@@ -15,7 +15,7 @@ export default function Home() {
           <p className="eyebrow"><span />Independent software studio</p>
           <h1>Small tools.<br /><em>Real momentum.</em></h1>
           <p className="hero-text">TrackyLab builds focused, AI-powered products that turn complex information into clear, useful action.</p>
-          <div className="hero-actions"><a className="button primary" href="#products">Explore our products <Arrow /></a><a className="button secondary" href="mailto:itai@trackylab.com">Get in touch</a></div>
+          <div className="hero-actions"><a className="button primary" href="#products">Explore our products <Arrow /></a><a className="button secondary" href="/contact">Get in touch</a></div>
         </div>
         <div className="hero-art" aria-hidden="true">
           <div className="orbit orbit-one" /><div className="orbit orbit-two" />
@@ -33,8 +33,8 @@ export default function Home() {
       </div></section>
 
       <section className="about shell" id="about"><div className="section-label">02 / About</div><div><h2>Useful technology,<br /><em>thoughtfully made.</em></h2><p>TrackyLab is an independent software studio building practical products at the intersection of artificial intelligence, thoughtful design, and everyday workflows.</p><p>We focus on small, useful tools that make complicated work feel clear and manageable.</p></div></section>
-      <section className="contact"><div className="shell contact-inner"><div><span>Have a question or want to connect?</span><h2>Let&apos;s talk.</h2></div><a href="mailto:itai@trackylab.com">itai@trackylab.com <Arrow /></a></div></section>
-      <footer className="footer shell"><a className="brand footer-brand" href="#top"><span className="brand-mark"><Wave /></span><span>trackylab</span></a><p>© 2026 TrackyLab. Built in Tel Aviv.</p><div><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="mailto:itai@trackylab.com">Contact</a></div></footer>
+      <section className="contact"><div className="shell contact-inner"><div><span>Have a question or want to connect?</span><h2>Let&apos;s talk.</h2></div><a href="/contact">Contact TrackyLab <Arrow /></a></div></section>
+      <footer className="footer shell"><a className="brand footer-brand" href="#top"><span className="brand-mark"><Wave /></span><span>trackylab</span></a><p>© 2026 TrackyLab. Built in Tel Aviv.</p><div><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/contact">Contact</a></div></footer>
     </main>
   );
 }
